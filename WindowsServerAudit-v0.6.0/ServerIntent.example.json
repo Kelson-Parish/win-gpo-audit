@@ -1,0 +1,28 @@
+{
+  "Schema": "WindowsServerAudit.Intent",
+  "Version": 2,
+  "CreatedUtc": "",
+  "Computer": "REVIEW-HOST",
+  "DomainController": false,
+  "Roles": {
+    "Known": true,
+    "Complete": true,
+    "Values": [
+      "Web"
+    ]
+  },
+  "Inbound": {
+    "Mode": "Custom",
+    "Ports": [
+      {
+        "Protocol": "TCP",
+        "Specification": "8443"
+      }
+    ]
+  },
+  "Outbound": {
+    "Mode": "Defaults",
+    "Ports": []
+  },
+  "BaselinePath": ""
+}

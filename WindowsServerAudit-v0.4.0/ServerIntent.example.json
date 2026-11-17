@@ -1,0 +1,48 @@
+{
+  "Schema": "WindowsServerAudit.Intent",
+  "Version": 1,
+  "CreatedUtc": "",
+  "Computer": "REVIEW-HOST",
+  "Roles": {
+    "Known": false,
+    "Complete": false,
+    "Values": []
+  },
+  "Services": [],
+  "NetworkKnown": false,
+  "NetworkComplete": false,
+  "Network": [],
+  "Administrators": {
+    "Known": false,
+    "Complete": false,
+    "Values": []
+  },
+  "AdminIdentities": [],
+  "ManagementTools": {
+    "Known": false,
+    "Complete": false,
+    "Values": []
+  },
+  "ExpectedTasks": {
+    "Known": false,
+    "Complete": false,
+    "Values": []
+  },
+  "DefenderExclusions": {
+    "Known": false,
+    "Complete": false,
+    "Values": []
+  },
+  "LocalRuleMerging": {
+    "Domain": null,
+    "Private": null,
+    "Public": null
+  },
+  "SqlAdministrators": {
+    "Known": false,
+    "Complete": false,
+    "Values": []
+  },
+  "Exceptions": [],
+  "BaselinePath": ""
+}
